@@ -1,0 +1,427 @@
+body {
+    margin: 0;
+}
+
+.top {
+    border: 1px solid #d8d8d8;
+    padding: 0.5% 11%;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+.top select {
+    border: none;
+    font-size: 0.7rem;
+}
+
+.parent-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5% 3%;
+    position: sticky;
+    top: 0px;   
+    background-color: white;
+}
+.parent-container a {
+    text-decoration: none;
+    color: black;
+}
+.parent-container img {
+    width: 9%;
+}
+
+.anchor_tags {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caster-parent {
+    background-image: url("https://edge.rode.com/images/page/1/modules/10296/rode-white-range-family-banner-6-products-14967x5457-rgb-1920x700-8c89d38%20(2).jpg");
+    min-height: 90vh;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.caster{
+    float: right;
+    text-align: center;
+    margin-top: 11%;
+}
+.caster img {
+    width: 85%;
+}
+.caster p {
+    color: gray;
+}
+.caster button {
+    border: 1px solid black;
+    padding: 18px;
+    width: 25%;
+    border-radius: 25px;
+    background-color: black;
+    color: antiquewhite;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.caster button:hover{
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+}
+
+.wireless-parent {
+    background-image: url("./image/wireless.png");
+    min-height: 90vh;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+.wireless{
+    float: left;
+    text-align: center;
+    margin-left: 18%;
+    margin-top: 10%;
+}
+.wireless h1 {
+    margin: 0;
+}
+.wireless img {
+    width: 70%;
+}
+.wireless button {
+    border: 1px solid white;
+    padding: 18px;
+    width: 30%;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.wireless button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.interview-parent {
+    background-image: url("./image/mike.jpg");
+    min-height: 90vh;
+    background-size: cover;
+    text-align: center;
+    color:black;
+    font-family: sans-serif;
+}
+.interview{
+    float: right;
+    text-align: center;
+    margin-top: 11%;
+}
+.interview img {
+    width: 85%;
+}
+.interview p {
+    color: gray;
+}
+.interview button {
+    border: 1px solid black;
+    padding: 18px;
+    width: 30%;
+    border-radius: 25px;
+    background-color: black;
+    color: antiquewhite;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.interview button:hover{
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+}
+
+.wireless-pro-parent {
+    background-image: url("./image/wireless-pro2.jpg");
+    min-height: 90vh;
+    background-size: cover;
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+}
+.wireless-pro{
+    float: left;
+    text-align: center;
+    margin-left: 18%;
+    margin-top: 10%;
+}
+.wireless-pro h1 {
+    margin: 0;
+}
+.wireless-pro img {
+    width: 70%;
+}
+.wireless-pro button {
+    border: 1px solid black;
+    padding: 18px;
+    width: 30%;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.wireless-pro button:hover{
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+}
+
+.black-parent {
+    background-image: url("./image/black.jpg");
+    min-height: 90vh;
+    background-size: cover;
+    text-align: center;
+    color:white;
+    font-family: sans-serif;
+}
+.black{
+    float: right;
+    text-align: center;
+    margin-top: 11%;
+}
+.black img {
+    width: 85%;
+}
+.black p {
+    color: gray;
+}
+.black button {
+    border: 1px solid black;
+    padding: 18px;
+    width: 40%;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.black button:hover{
+    border: 2px solid black;
+    background-color: transparent;
+    color: white;
+}
+
+.phonecage-parent {
+    background-image: url("./image/Phone-Cage.jpg");
+    min-height: 90vh;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+.phonecage{
+    float: left;
+    text-align: center;
+    margin-left: 18%;
+    margin-top: 10%;
+}
+.phonecage h1 {
+    margin: 0;
+}
+.phonecage img {
+    width: 70%;
+}
+.phonecage button {
+    border: 1px solid white;
+    padding: 18px;
+    width: 40%;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.phonecage button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.nt1-parent {
+    background-image: url("./image/NT1.jpg");
+    min-height: 90vh;
+    background-size: cover;
+    text-align: center;
+    color:white;
+    font-family: sans-serif;
+}
+.nt1{
+    float: right;
+    text-align: center;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+.nt1 img {
+    width: 85%;
+}
+.nt1 p {
+    color: gray;
+}
+.nt1 button {
+    border: 1px solid black;
+    padding: 18px;
+    width: 30%;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.nt1 button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+.single-h1{
+    text-align: center;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+.section1{
+    background-color: whitesmoke;
+    padding:2% 8% ;
+ }
+ .card-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+ }
+ .card{
+    width: 50%;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: white;
+    padding-bottom: 2%;
+}
+.card h1{
+    margin-top: 7%;
+    font-weight: 500;
+}
+.card p{
+    font-family: sans-serif;
+    line-height: 2;
+
+}
+ .card img{
+    width: 100%;
+    margin-top: 2%;
+}
+.card button{
+    margin-top: 5%;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    padding: 2%;
+    width: 25%;
+}
+.card button:hover{
+    border: 1px solid black;
+    color: black;
+    background-color: transparent;
+}
+.section2{
+    padding: 1% 10%;
+ }
+ .second-h1{
+    text-align: center;
+    color: gray;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+.microphone{
+    background-image: url("https://edge.rode.com/images%2Fpage%2F1%2Fmodules%2F5357%2Fmicrophones-module-1200x300-rgb.png");
+    min-height: 45vh;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+.microphone img{
+    margin:auto;
+    margin-top: 10%;
+}
+.interfaces{
+    background-image: url("https://rode.com/assets/images%2Fpage%2F1%2Fmodules%2F5359%2Finterfaces-module-2022-1200x300-rgb.jpg");
+    min-height: 45vh;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+.interfaces img{
+    margin:auto;
+    margin-top: 10%;
+}
+.software-module{
+    background-image: url("https://edge.rode.com/images%2Fpage%2F1%2Fmodules%2F5361%2Fsoftware-module-2021-1200x300-rgb.png");
+    min-height: 45vh;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+.software-module img{
+    margin:auto;
+    margin-top: 10%;
+}
+.accessories{
+    background-image: url("https://edge.rode.com/images%2Fpage%2F1%2Fmodules%2F5370%2Faccessories-module-2021-1200x300-rgb.png");
+    min-height: 45vh;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+.accessories img{
+    margin:auto;
+    margin-top: 10%;
+}
+.end{
+    display: flex;
+    flex-direction: row;
+    padding: 1% 10%;
+    border-top: 1px solid rgb(205, 205, 205);
+    border-bottom: 1px solid rgb(205, 205, 205);
+}
+.div1{
+    width: 20%;
+}
+.div1 h4{
+    font-size: 1.2rem;
+}
+.div1 a{
+    line-height: 2;
+    font-size: 1rem;
+    text-decoration: none;
+    color: gray;
+}
+.div2{
+    text-align: end;
+}
+.div2 button{
+    border:1px solid black;
+    padding: 2%;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    width: 25%;
+    font-weight: bold;
+}
+.div2 button:hover{
+    border:1px solid black;
+    background-color: white;
+    color: black;
+
+}
+.the-end{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 10%;
+}
+.the-end a{
+    text-decoration: none;
+    color: black;
+}
